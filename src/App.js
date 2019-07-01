@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
-import Stat from './components/Stat';
-import Todo from './components/Todo';
-import NewTodoForm from './components/NewTodoForm';
+import Stat from './Stat';
+import Todo from './Todo';
+import NewTodoForm from './NewTodoForm';
 
 export default class App extends Component {
     state = {
