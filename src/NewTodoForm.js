@@ -12,7 +12,7 @@ export default class NewTodoForm extends Component {
     }
     
     render() {
-        const {onNewToDo} = this.props;
+        const {onNewTodo} = this.props;
         return (
             <div>
                 <input type="text" onChange={(even) => {
@@ -20,7 +20,7 @@ export default class NewTodoForm extends Component {
                 }}>
                 </input>
                 <input type="submit" onClick={() => {
-                    onNewToDo({
+                    onNewTodo({
                         name:this.state.newTodoName,
                         done: false
                     })
